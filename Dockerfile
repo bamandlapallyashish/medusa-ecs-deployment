@@ -2,7 +2,7 @@ FROM node:20
 
 WORKDIR /app
 
-COPY my-medusa-store/ .
+COPY . .
 
 RUN npm install
 
